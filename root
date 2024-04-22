@@ -24,7 +24,7 @@ yes Y | sudo apt install wget
 echo " "
 echo "---> installing root dependencies"
 echo " "
-yes Y | sudo apt install git dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev libxft-dev libxext-dev python-dev-is-python3
+yes Y | sudo apt install git dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev libxft-dev libxext-dev
 
 cd
 mkdir Software
