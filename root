@@ -21,23 +21,6 @@ echo "---> installing wget"
 echo " "
 yes Y | sudo apt install wget
 
-if [[ $1 -eq 3 ]]; then 
-
-   echo " "
-   echo "---> installing python"
-   echo " "
-   yes Y | sudo apt install python3
-   yes Y | sudo apt install python3-pip
-   sudo python3 -m pip install matplotlib
-   sudo python3 -m pip install numpy
-   sudo python3 -m pip install scipy
-   sudo python3 -m pip install iminuit
-
-   echo " "
-   echo "---> installing notebook"
-   echo " "
-   sudo python3 -m pip install notebook
-
 fi
 
 echo " "
